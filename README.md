@@ -1,6 +1,6 @@
 # EPL Data Analysis (2024–25)
 
----
+
 
 ## **Overview**
 
@@ -8,13 +8,13 @@ This repository contains a Jupyter Notebook that performs a comprehensive statis
 
 The goal is to provide a detailed, data-driven perspective on player and team performance based on a wide range of statistical categories.
 
----
+
 
 ## **Data Source**
 
 The analysis is based on the `epl_player_stats_24_25.csv` dataset. This dataset contains comprehensive statistics for each player in the English Premier League for the 2024–25 season.
 
----
+
 
 ## **Key Features**
 
@@ -26,7 +26,7 @@ The analysis is based on the `epl_player_stats_24_25.csv` dataset. This dataset 
 * **Disciplinary Records**: Yellow Cards, Red Cards, Fouls
 * **Goalkeeping Stats**: Saves, Penalties Saved, Punches
 
----
+
 
 ## **Analysis Workflow**
 
@@ -35,7 +35,7 @@ The analysis is based on the `epl_player_stats_24_25.csv` dataset. This dataset 
 * The dataset is loaded using **pandas**
 * Inspected the structure using `.head()` and `.columns`
 
----
+
 
 ### **2. Data Cleaning & Preprocessing**
 
@@ -54,7 +54,7 @@ The analysis is based on the `epl_player_stats_24_25.csv` dataset. This dataset 
 * Created histograms for columns such as goals, assists, and minutes
 * Created box plots to identify outliers for minutes played, goals, and assists
 
----
+
 
 #### **Player-Level Analysis**
 
@@ -66,7 +66,7 @@ The analysis is based on the `epl_player_stats_24_25.csv` dataset. This dataset 
 * **Top 10 Players by Passes Attempted**
 * **Top 10 Players by Fouls Committed**
 
----
+
 
 ##### **Advanced Metrics**
 
@@ -83,7 +83,7 @@ Several derived features were calculated for deeper insight:
    * `cross_accuracy = successful_crosses / crosses`
 * **Discipline Score**: `yellow_cards + 2 × red_cards`
 
----
+
 
 ##### **Relational Analysis**
 
@@ -92,7 +92,7 @@ Used scatter plots to analyze relationships between:
 * **Goals vs. Assists**
 * **Minutes Played vs. Goals**
 
----
+
 
 #### **Team-Level Analysis**
 
@@ -107,11 +107,11 @@ Aggregated stats to the team (club) level for comparison:
 * **Most Clean Sheets by Club**
 * **Total Touches by Club**
 
----
+
 
 #### **Positional Breakdown**
 
 * Created a pivot table showing goals by club and position (e.g., **DEF**, **MID**, **FWD**)
 * Visualized using a stacked bar chart to understand which positions contribute most to scoring for each club
 
----
+
